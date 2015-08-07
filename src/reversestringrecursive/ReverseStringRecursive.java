@@ -46,17 +46,9 @@ public class ReverseStringRecursive {
     }
    
     
-    public static String reverseUsingStringBuilder(String input){
+    public static reverseUsingStringBuilder(String input){
     
          return new StringBuilder(input).reverse().toString();
     }
-    
-    public static void testFromGitHUB(){
-        
-        //Pulling 
-    }
-    public static void testFromNetbeans(){
-        
-        //Pulling 
-    }
+
 }
